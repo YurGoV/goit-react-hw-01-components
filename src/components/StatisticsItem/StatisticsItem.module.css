@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  min-width: 45px;
+  background-color: lightgray;
+  padding: 0;
+  border: 1px solid grey;
+  border-top: 2px solid grey;
+  align-items: center;
+  /*box-sizing: content-box;*/
+  /*widht: 100%;*/
+
+}
+
+.label {
+font-size: 12px;
+}
+
+.percentage {
+  font-size: 14px;
+  font-weight: bold;
+}
