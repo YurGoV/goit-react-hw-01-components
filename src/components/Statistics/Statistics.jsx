@@ -1,6 +1,6 @@
-import css from 'components/Statistics/Statistics.module.css';
 import PropTypes from 'prop-types';
 import { StatisticsItem } from '../StatisticsItem/StatisticsItem';
+import css from 'components/Statistics/Statistics.module.css';
 
 export const Statistics = (props) => {
   const {title, stats} = props;

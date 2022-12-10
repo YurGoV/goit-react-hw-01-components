@@ -1,15 +1,11 @@
 .profile {
-  /*margin-top: 20px;*/
+  margin-top: 10px;
   display: flex;
-  /*box-sizing: border-box;*/
   flex-direction: column;
   width: 200px;
-  /*height: 250px;*/
   border: 1px solid grey;
   background-color: #efeded;
-  /*justify-content: center;*/
   align-items: center;
-  /*margin: 0 auto;*/
 }
 
 .description {
@@ -17,10 +13,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border-left: 1px solid grey;*/
-  /*border-top: 1px solid grey;*/
-  /*border-right: 1px solid grey;*/
 }
+
 .description p {
   margin: 0;
   margin-bottom: 5px;
@@ -54,14 +48,13 @@ li {
 .stats {
   display: flex;
   width: 100%;
-  /*width: 180px;*/
   justify-content: space-between;
   flex-direction: row;
   border-top: 1px solid grey;
   background-color: lightgray;
-  list-style-type: none; /* Remove bullets */
-  padding: 5px 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none;
+  padding: 5px 0;
+  margin: 0;
 
 }
 
@@ -78,11 +71,9 @@ li {
 .location {
   font-size: 14px;
   color: grey;
-  /*margin-bottom: 0;*/
 }
 
 .label {
-  /*padding: 0 5px;  */
 
   color: grey;
   display: flex;
@@ -91,7 +82,6 @@ li {
 }
 
 .quantity {
-  /*padding: 0 5px;*/
   font-size: 14px;
   font-weight: bold;
 }

@@ -1,9 +1,8 @@
 .container {
-  /*height: 100vh;*/
-  padding: 40px;
   display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
   justify-content: center;
-  align-items: center;
-  /*font-size: 40px;*/
+  align-items: flex-start;
   color: #010101;
 }

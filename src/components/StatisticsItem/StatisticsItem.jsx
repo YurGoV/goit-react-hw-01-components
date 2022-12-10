@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 
 export const StatisticsItem = ({ label, percentage }) => {
-  // const {label, percentage} = props;
-
   return (
     <li className={css.item}>
       <span className={css.label}>{label}</span>

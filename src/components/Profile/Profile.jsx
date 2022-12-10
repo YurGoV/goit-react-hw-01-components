@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 export const Profile = (userData) => {
   const { username, tag, location, avatar, followers, likes, views} = userData;
-  // console.log(username, tag, location, avatar, followers, likes, views);
   return <div className={css.profile}>
     <div className={css.description}>
       <img
