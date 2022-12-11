@@ -1,19 +1,17 @@
-import css from 'components/App.module.css';
-import { Profile } from './Profile/Profile';
+import { Profile } from '../Profile/Profile';
 import user from 'data/user.json';
 import uploadsData from 'data/data.json';
-import { Statistics } from './Statistics/Statistics';
+import { Statistics } from '../Statistics/Statistics';
 import friends from 'data/friends.json';
-import { FriendsList } from './FriendsList/FriendsList';
+import { FriendsList } from '../FriendsList/FriendsList';
 import transactions from 'data/transactions.json';
-import { TransactionHistory } from './Transactions/TransactionHistory';
-
-
+import { TransactionHistory } from '../Transactions/TransactionHistory';
+import {Container} from './App.styled';
 
 
 export const App = () => {
   return (
-    <div className={css.container} >
+    <Container>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -29,6 +27,6 @@ export const App = () => {
       <FriendsList friends={friends} />
 
       <TransactionHistory transactions={transactions} />
-    </div>
+    </Container>
   );
 };
